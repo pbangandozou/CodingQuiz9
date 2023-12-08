@@ -1,15 +1,16 @@
 Weighted Uniform Strings 
 
-Time Complexity: This program has an O(n) time complexity, where n is the string's length. This results from the string's conversion to an array.
-the array's iteration, and the queries' comparison with the HashSet, all of which have linear time complexity.
+Time Complexity: This program has an O(n) time complexity, because n is the string's length. This is from the string's conversion to an array.
+with the comparison with the HashSet, all of which have linear time complexity.
 
-Space Complexity: This program has an O(n) space complexity, where n is the string s' length. 
-This is mainly because, in the worst-case scenario when every character is unique, 
-both the character array made with toCharArray() and the weights stored in the HashSet require O(n) space.
+Space Complexity: This program has an O(n) space complexity, where n is the strings length. Mainly because, 
+in the worst-case scenario when every character is unique, both the character array and the weights stored in the HashSet require O(n) space.
 
 
 Mini-Max Sum
 
-Time:
+Time Complexity: The program has an O(n) time complexity, where n is the length of the input list arr. 
+It takes O(n) time to go through every element in the list, While adding, comparing, and subtracting integers are constant-time operations,
 
-Space:  
+Space Complexity: The program has an O(1) space complexity because it makes use of  variables that require constant memory, 
+like sum, max, min, minSum, and maxSum O(1). 
